@@ -1,0 +1,3 @@
+method,n_estimators,trees_built,val_accuracy,time_s
+Собственный Early Stopping (validation set),47,77,0.9649,0.2898
+sklearn n_iter_no_change (20% от train),59,59,0.9474,0.0813

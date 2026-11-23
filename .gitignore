@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Секреты и локальные настройки
+.env
+.env.*
+*.key
+*.pem
+
+# IDE / ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

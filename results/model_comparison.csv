@@ -1,0 +1,5 @@
+model,train_accuracy,test_accuracy,train_f1,test_f1,train_roc_auc,test_roc_auc,train_log_loss,test_log_loss,accuracy_gap,train_time_s
+"Gradient Boosting + ES (lr=1.0, depth=1, n=38)",1.0,0.9474,1.0,0.9583,1.0,0.9911,0.0032,0.1332,0.0526,0.0289
+"Gradient Boosting без ES (lr=0.1, depth=3, n=500)",1.0,0.9386,1.0,0.9517,1.0,0.9914,0.0,0.3527,0.0614,0.7406
+"Random Forest (300 деревьев, max_depth=4)",0.9941,0.9474,0.9953,0.9583,0.9996,0.9917,0.0549,0.1233,0.0468,0.2268
+Logistic Regression (C=1.0),0.9883,0.9825,0.9907,0.9861,0.9972,0.995,0.0543,0.0867,0.0058,0.004
